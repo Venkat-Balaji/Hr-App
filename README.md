@@ -76,3 +76,13 @@ License
 This project is licensed under the MIT License.
 
 This README.md covers the essential setup and usage instructions. You can further customize it by adding any additional information specific to your project setup or dependencies. Let me know if you need more customization!
+
+
+**STEPS TO RUN THE PROGRAM:**
+
+1.install the dependencies.
+2. open two command prompt windows in the project directory.
+3. navigate to the application (my_app) in both the windows.
+4. run "_python manage.py listen_for_emails_" to actively listen to the emails
+5. In another window run "_python manage.py runserver_" to locally host the application
+6. open  _**http://127.0.0.1:8000/applicants/**_ in the browser
