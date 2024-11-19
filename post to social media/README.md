@@ -31,3 +31,25 @@ This project is a Streamlit-based dashboard that enables users to post job descr
    ```bash
    git clone https://github.com/your-username/social-media-posting-dashboard.git
    cd social-media-posting-dashboard
+### Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### Set Up API Credentials
+
+Add your API keys and tokens for LinkedIn, Instagram, and Facebook in their respective .py files (linkedin.py, instagram.py, facebook.py).
+Ensure proper configurations like access tokens, page IDs, and account IDs.
+
+## Usage
+### Run the Application
+
+```bash
+streamlit run app.py
+```
+### Navigate to the Dashboard
+
+- Open your browser and go to http://localhost:8501.
+### Post Job Descriptions
+
+- Fill out the job description field and upload an image if needed.
+- Use buttons to post to individual platforms or all platforms simultaneously.
