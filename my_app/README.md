@@ -57,6 +57,6 @@ Update the MongoDB URI in listen_for_emails.py if needed.
 - Install the dependencies.
 - Open two command prompt windows in the project directory.
 - Navigate to the application (my_app) in both the windows.
-- n "_python manage.py listen_for_emails_" to actively listen to the emails
+- Run "_python manage.py listen_for_emails_" to actively listen to the emails
 - In another window run "_python manage.py runserver_" to locally host the application
 - open  _**http://127.0.0.1:8000/applicants/**_ in the browser
